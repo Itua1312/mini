@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Semantic Elements</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<style type="text/css">
+		.flexparent{
+			display:flex;
+			justify-content: space between;
+		}
+		
+		#logo{
+			width:30%;
+			height:100px;
+		}
+		
+		#topmenu{
+			width:65%;
+			height:100px;
+		}
+		
+		#banner{
+		height:200px;
+		}
+		
+		.flexitem{
+			width:32%;
+			min-height:120px;
+		}
+		
+		#footer{
+			height:100px;
+		}
+		
+		p::first-line{
+			color:brown;
+			font-weight: bold;
+		}
+		p::first-letter{
+			font-size:48px;
+			font-family: elephant, serif;
+		}
+		
+		h2::before, h2::after{
+			content:'***';
+		}
+		
+		tr:nth-child(odd){
+			background-color:black;
+			color:white;
+		}
+		tr:nth-child(even){
+			background-color: grey;
+			color:red;
+		}
+		
+		
+		
+		</style>
+	
+	
+	</head>
+	<body>
+		<!-- ist section -->
+		<header class="flexparent">
+			<div id="logo">logo</div>
+			<div id="topmenu">top menu</div>
+		</header>
+		
+		<!-- 2nd section -->
+		<div id="banner">banner</div>
+		
+		<!-- 3rd section -->
+		<main class="flexparent">
+			<div class="flexitem">
+				<h2>Moat Alumni Party</h2>
+				<p>This is sample text, you may replace with anything. Our approach is 100% Practical and job oreiented as this is not a mere academic process but an apprenticeship, where you learn the trade from experts.
+
+</p>
+			</div>
+			<div class="flexitem">
+			<h2>Moat Alumni Party</h2>
+				<p>This is sample text, you may replace with anything. Our approach is 100% Practical and job oreiented as this is not a mere academic process but an apprenticeship, where you learn the trade from experts.
+			</div>
+			<div class="flexitem">
+			<table>
+				<tr>
+					<th>#</th>
+					<th>name</th>
+					<th>score</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>musk</td>
+					<td>95%</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>gate</td>
+					<td>92%</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>itua</td>
+					<td>97%</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>bolaji</td>
+					<td>94%</td>
+				</tr>
+			</table>
+			
+			
+			</div>
+		</main>
+		
+		<!-- 4th section -->
+		<div id="footer">
+			copyright &copy; 2022.
+		</div>
+	
+	</body>
+
+
+
+
+
+</html>
